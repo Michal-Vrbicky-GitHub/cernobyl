@@ -1,0 +1,11 @@
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.exe.config
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.exe
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.pdb
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.AssemblyReference.cache
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Form1.resources
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Form2.resources
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Properties.Resources.resources
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.GenerateResource.cache
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.CoreCompileInputs.cache
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.exe
+C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.pdb
