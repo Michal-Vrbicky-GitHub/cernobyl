@@ -27,7 +27,6 @@ namespace WindowsFormsApp1qweasdyxc
             if (zům == 0)
                 zům = 0.01;
             f1.Kresleni(zům, cernoch);
-            f1.Kresleni(zům, !Hatadendler.cernobile);
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
