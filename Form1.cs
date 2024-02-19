@@ -15,13 +15,16 @@ namespace WindowsFormsApp1qweasdyxc
     public partial class Form1 : Form
     {
         int[] puvodniRozmery = new int[2];
-        string path = (new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.FullName)+"\\Properties\\images-_2_.jpg";
+        string path = (new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.FullName) + "\\Properties\\images-_2_.jpg";
+        Image imgPuvodni;
         Image img;
         Image zmensovanejImg;
+        bool cernobile_predtim = false;
 
         public Form1()
         {
-            img = Image.FromFile(path);
+            imgPuvodni = Image.FromFile(path);
+            img = new Bitmap(imgPuvodni);
             puvodniRozmery[0] = img.Width; puvodniRozmery[1] = img.Height;
             InitializeComponent();
             pictureBox1.Paint += pictureBox1_Paint;
@@ -43,18 +46,18 @@ namespace WindowsFormsApp1qweasdyxc
         {
             Graphics g = e.Graphics;
             g.Clear(Color.White);
-            g.DrawImage(zmensovanejImg, pictureBox1.Width/2- zmensovanejImg.Width/2, pictureBox1.Height/2-zmensovanejImg.Height/2/*, pictureBox1.Width, pictureBox1.Height*/); // Vykreslení obrázku na pozici (0, 0) s rozměry pictureBox1
+            g.DrawImage(zmensovanejImg, pictureBox1.Width / 2 - zmensovanejImg.Width / 2, pictureBox1.Height / 2 - zmensovanejImg.Height / 2/*, pictureBox1.Width, pictureBox1.Height*/); // Vykreslení obrázku na pozici (0, 0) s rozměry pictureBox1
         }
 
         public void Kresleni(double zoom, bool gs)
         {
-            Image img = this.img;
-            if (gs)
-            {
+            if (gs && !cernobile_predtim)
                 img = ConvertToGrayScale(img);
-            }
-            zmensovanejImg = new Bitmap(img, (int)(puvodniRozmery[0]*zoom), (int)(puvodniRozmery[1]*zoom));
+            else if (!gs && cernobile_predtim)
+                img = new Bitmap(imgPuvodni);
+            zmensovanejImg = new Bitmap(img, (int)(puvodniRozmery[0] * zoom), (int)(puvodniRozmery[1] * zoom));
             pictureBox1.Invalidate();
+            cernobile_predtim = gs;
         }
 
         private Image ConvertToGrayScale(Image originalImage)
@@ -73,9 +76,9 @@ namespace WindowsFormsApp1qweasdyxc
                     grayScaleImage.SetPixel(x, y, newColor);
                 }
             }
-
             return grayScaleImage;
         }
+
 
     }
 }
