@@ -9,3 +9,14 @@ C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsF
 C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.CoreCompileInputs.cache
 C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.exe
 C:\Users\vrbickym\Desktop\qweasdyxc\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.pdb
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.exe.config
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.exe
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\bin\Debug\WindowsFormsApp1qweasdyxc.pdb
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.AssemblyReference.cache
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Form1.resources
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Form2.resources
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.Properties.Resources.resources
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.GenerateResource.cache
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.csproj.CoreCompileInputs.cache
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.exe
+C:\Users\misav.DESKTOP-VFKPUAD\Desktop\qweasdyxc ten blbej\WindowsFormsApp1qweasdyxc\obj\Debug\WindowsFormsApp1qweasdyxc.pdb

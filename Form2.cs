@@ -21,7 +21,7 @@ namespace WindowsFormsApp1qweasdyxc
             f1 = (Form1)f;
         }
 
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        public void trackBar1_Scroll(object sender, EventArgs e)
         {
             double zům = (5 * (double)trackBar1.Value / 101);
             if (zům == 0)

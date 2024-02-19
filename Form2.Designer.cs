@@ -47,7 +47,7 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            /**///this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton2
             // 
@@ -59,6 +59,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "černomíle";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.groupBox1_Enter);
             // 
             // radioButton1
             // 
@@ -70,7 +71,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "V barvě";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.groupBox1_Enter);
             // 
             // trackBar1
             // 
@@ -109,12 +110,12 @@
 
         }
 
-        #endregion//gdfgdf
+        #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TrackBar trackBar1;
+        public System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Button button1;
     }
 }
