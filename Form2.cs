@@ -13,6 +13,7 @@ namespace WindowsFormsApp1qweasdyxc
     public partial class Form2 : Form
     {
         Form1 f1;
+        bool cernoch = false;
 
         public Form2(Form f)
         {
@@ -22,9 +23,10 @@ namespace WindowsFormsApp1qweasdyxc
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            double zům = (5*(double)trackBar1.Value/101);
+            double zům = (5 * (double)trackBar1.Value / 101);
             if (zům == 0)
                 zům = 0.01;
+            f1.Kresleni(zům, cernoch);
             f1.Kresleni(zům, !Hatadendler.cernobile);
         }
 
@@ -36,6 +38,16 @@ namespace WindowsFormsApp1qweasdyxc
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+                cernoch = true;
+            }
+            else cernoch = false;
+            trackBar1_Scroll(sender, e);
         }
     }
 }
